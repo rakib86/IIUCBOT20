@@ -2,6 +2,7 @@
 
 module.exports = {
     additionalIntents: [
+{ regex: /^(?=.*\b(L)\b)(?=.*\b(j)\b)/i, type: 'text', text: `G` },
 { regex: /^(?=.*\b(J)\b)/i, type: 'text', text: `J` },
 {
       regex: /^(?=.*\b(heda)\b)/i,
